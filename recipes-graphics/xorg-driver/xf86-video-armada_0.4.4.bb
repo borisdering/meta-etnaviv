@@ -12,7 +12,7 @@ S = "${WORKDIR}/git"
 
 DEPENDS = "xserver-xorg libdrm libdrm-armada libetnaviv"
 
-DEPENDS_${PN} += " xserver-xorg-module-exa \
+DEPENDS += " xserver-xorg-module-exa \
                    xserver-xorg-extension-dri \
                    xserver-xorg-extension-dri2 \
                    xserver-xorg-extension-glx"
